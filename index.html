@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>原神 7.0 牽神伶愛的雪國 - 前瞻特別節目</title>
+<title>《原神》7.0版本「無神憐愛的雪國」</title>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700;900&family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
 <style>
   :root{--bg:#060d1c;--cyan:#8de8ff;}
@@ -16,8 +16,6 @@
   .snow i{position:absolute;top:-10px;background:#fff;border-radius:50%;opacity:.8;animation:fall linear infinite}
   @keyframes fall{to{transform:translateY(110vh) translateX(20px)}}
   .wrap{position:relative;max-width:1120px;margin:0 auto;padding:0 20px;width:100%}
-  .topbar{position:absolute;top:0;left:0;right:0;z-index:10;display:flex;justify-content:space-between;align-items:center;padding:14px 20px;background:linear-gradient(180deg,rgba(0,0,0,.35),transparent);backdrop-filter:blur(6px)}
-  .topbar b{letter-spacing:.35em;font-size:13px}
   .badge{display:inline-flex;align-items:center;gap:8px;padding:6px 14px;border-radius:999px;background:rgba(141,232,255,.12);border:1px solid rgba(141,232,255,.25);font-size:11px;letter-spacing:.25em;color:#bfefff}
   .title{font-family:'Noto Serif TC',serif;font-size:clamp(36px,11vw,86px);line-height:.95;letter-spacing:.12em;margin:14px 0 8px;text-shadow:0 0 18px rgba(141,232,255,.8),0 0 40px rgba(120,180,255,.5);background:linear-gradient(180deg,#fff 15%,#b8eeff 55%,#6fc7ff 90%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;filter:drop-shadow(0 2px 0 rgba(255,255,255,.2))}
   .sub{letter-spacing:.35em;color:#cfefff;font-size:clamp(11px,2.8vw,14px);opacity:.9}
@@ -31,12 +29,11 @@
 </style>
 </head>
 <body>
-<div class="topbar"><b>原神 • 7.0</b><span style="font-size:11px;opacity:.6;letter-spacing:.2em">SNEZHNAYA</span></div>
 <section class="hero">
   <div class="hero-bg"><img src="hero.png" alt="Genshin 7.0 Snow"></div>
   <div class="snow" id="snow"></div>
   <div class="wrap" style="padding-bottom:32px;padding-top:72px">
-    <div class="badge">❄ 7.0版本 — 牽神伶愛的雪國 ❄</div>
+    <div class="badge">❄ 7.0版本「無神憐愛的雪國」 ❄</div>
     <h1 class="title">前瞻特別節目</h1>
     <div class="sub">PROLOGUE • FATUI • SNEZHNAYA • 2026 WINTER</div>
     <div class="cards">
@@ -46,7 +43,6 @@
     </div>
   </div>
 </section>
-
 <section class="section" id="reward">
   <div class="wrap">
     <div style="margin:0 auto;max-width:720px;padding:20px 18px;border-radius:16px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);text-align:center;backdrop-filter:blur(10px)">
@@ -54,7 +50,6 @@
     </div>
   </div>
 </section>
-
 <script>
 const snowBox=document.getElementById('snow');
 for(let i=0;i<28;i++){
